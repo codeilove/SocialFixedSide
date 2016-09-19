@@ -1,0 +1,48 @@
+/* Scss Document */
+$facebook : #3b5998;
+$twitter: #1da1f2;
+$googleplus: #dc4e41;
+$linkedin: #0177b5;
+$gmail: #db4437;
+$moreshare: #ff6550;
+/*@keyframes width {
+	0% {width:48px;}
+	100% {width:60px;}
+	}*/
+* {margin:0 ; padding:0 ; outline:none;}
+body { background:#333;}
+.fixedside {
+	width:48px;
+	height:305px;
+	position:fixed;
+	left:0;
+	top:50%;
+	margin-top:-148px;
+	
+	.facebook {color:#fff; background-color:$facebook;}
+	.twitter {color:#fff; background:$twitter; }
+	.plus {display:inline-block;color:#fff;background:$googleplus;}
+	.linkedin {display:inline-block; color:#fff; background: $linkedin;}
+	.gmail {display:inline-block; color:#fff; background: $gmail;}
+	.moreshare {display:inline-block; color:#fff; background: $moreshare;}
+	.fa.fa-caret-left {position:absolute; right:5px; bottom:3px;color: rgba(255,255,255,.4);display:none;
+		&:hover {cursor:pointer;}
+	}
+	.fa.fa-caret-right {position:fixed;left:5px;color: rgba(255,255,255,.4);display:none;
+		&:hover {cursor:pointer;}
+	}
+	&:hover {
+		.fa.fa-caret-left {display:block;}
+		}
+	a {
+		text-align:center;
+		line-height:51px;
+		width:48px;
+		height:48px;
+		display:inline-block;
+		transition:100ms ease-in-out;
+		&:hover {width:60px; transition:100ms ease-in-out;}
+		 	i { font-size:22px;}
+			
+		}
+	}

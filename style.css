@@ -1,0 +1,73 @@
+/* Scss Document */
+/*@keyframes width {
+	0% {width:48px;}
+	100% {width:60px;}
+	}*/
+* {
+  margin: 0;
+  padding: 0;
+  outline: none; }
+
+body {
+  background: #333; }
+
+.fixedside {
+  width: 48px;
+  height: 305px;
+  position: fixed;
+  left: 0;
+  top: 50%;
+  margin-top: -148px; }
+  .fixedside .facebook {
+    color: #fff;
+    background-color: #3b5998; }
+  .fixedside .twitter {
+    color: #fff;
+    background: #1da1f2; }
+  .fixedside .plus {
+    display: inline-block;
+    color: #fff;
+    background: #dc4e41; }
+  .fixedside .linkedin {
+    display: inline-block;
+    color: #fff;
+    background: #0177b5; }
+  .fixedside .gmail {
+    display: inline-block;
+    color: #fff;
+    background: #db4437; }
+  .fixedside .moreshare {
+    display: inline-block;
+    color: #fff;
+    background: #ff6550; }
+  .fixedside .fa.fa-caret-left {
+    position: absolute;
+    right: 5px;
+    bottom: 3px;
+    color: rgba(255, 255, 255, 0.4);
+    display: none; }
+    .fixedside .fa.fa-caret-left:hover {
+      cursor: pointer; }
+  .fixedside .fa.fa-caret-right {
+    position: fixed;
+    left: 5px;
+    color: rgba(255, 255, 255, 0.4);
+    display: none; }
+    .fixedside .fa.fa-caret-right:hover {
+      cursor: pointer; }
+  .fixedside:hover .fa.fa-caret-left {
+    display: block; }
+  .fixedside a {
+    text-align: center;
+    line-height: 51px;
+    width: 48px;
+    height: 48px;
+    display: inline-block;
+    transition: 100ms ease-in-out; }
+    .fixedside a:hover {
+      width: 60px;
+      transition: 100ms ease-in-out; }
+    .fixedside a i {
+      font-size: 22px; }
+
+/*# sourceMappingURL=style.css.map */
